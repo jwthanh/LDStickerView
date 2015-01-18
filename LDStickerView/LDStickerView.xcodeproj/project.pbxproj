@@ -1,0 +1,434 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		60FF3CC11A6C142000084B25 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 60FF3CC01A6C142000084B25 /* AppDelegate.swift */; };
+		60FF3CC31A6C142000084B25 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 60FF3CC21A6C142000084B25 /* ViewController.swift */; };
+		60FF3CC61A6C142000084B25 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 60FF3CC41A6C142000084B25 /* Main.storyboard */; };
+		60FF3CC81A6C142000084B25 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 60FF3CC71A6C142000084B25 /* Images.xcassets */; };
+		60FF3CCB1A6C142000084B25 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 60FF3CC91A6C142000084B25 /* LaunchScreen.xib */; };
+		60FF3CD71A6C142000084B25 /* LDStickerViewTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 60FF3CD61A6C142000084B25 /* LDStickerViewTests.swift */; };
+		60FF3CE11A6C14BA00084B25 /* LDStickerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 60FF3CE01A6C14BA00084B25 /* LDStickerView.swift */; };
+		60FF3CE41A6C155400084B25 /* cu-meo.png in Resources */ = {isa = PBXBuildFile; fileRef = 60FF3CE21A6C155400084B25 /* cu-meo.png */; };
+		60FF3CE51A6C155400084B25 /* Minion1x.png in Resources */ = {isa = PBXBuildFile; fileRef = 60FF3CE31A6C155400084B25 /* Minion1x.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		60FF3CD11A6C142000084B25 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 60FF3CB31A6C142000084B25 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 60FF3CBA1A6C142000084B25;
+			remoteInfo = LDStickerView;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		60FF3CBB1A6C142000084B25 /* LDStickerView.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LDStickerView.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		60FF3CBF1A6C142000084B25 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		60FF3CC01A6C142000084B25 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		60FF3CC21A6C142000084B25 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		60FF3CC51A6C142000084B25 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		60FF3CC71A6C142000084B25 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		60FF3CCA1A6C142000084B25 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		60FF3CD01A6C142000084B25 /* LDStickerViewTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LDStickerViewTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		60FF3CD51A6C142000084B25 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		60FF3CD61A6C142000084B25 /* LDStickerViewTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LDStickerViewTests.swift; sourceTree = "<group>"; };
+		60FF3CE01A6C14BA00084B25 /* LDStickerView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LDStickerView.swift; sourceTree = "<group>"; };
+		60FF3CE21A6C155400084B25 /* cu-meo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "cu-meo.png"; sourceTree = "<group>"; };
+		60FF3CE31A6C155400084B25 /* Minion1x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Minion1x.png; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		60FF3CB81A6C142000084B25 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		60FF3CCD1A6C142000084B25 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		60FF3CB21A6C142000084B25 = {
+			isa = PBXGroup;
+			children = (
+				60FF3CBD1A6C142000084B25 /* LDStickerView */,
+				60FF3CD31A6C142000084B25 /* LDStickerViewTests */,
+				60FF3CBC1A6C142000084B25 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		60FF3CBC1A6C142000084B25 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				60FF3CBB1A6C142000084B25 /* LDStickerView.app */,
+				60FF3CD01A6C142000084B25 /* LDStickerViewTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		60FF3CBD1A6C142000084B25 /* LDStickerView */ = {
+			isa = PBXGroup;
+			children = (
+				60FF3CE21A6C155400084B25 /* cu-meo.png */,
+				60FF3CE31A6C155400084B25 /* Minion1x.png */,
+				60FF3CC01A6C142000084B25 /* AppDelegate.swift */,
+				60FF3CC21A6C142000084B25 /* ViewController.swift */,
+				60FF3CE01A6C14BA00084B25 /* LDStickerView.swift */,
+				60FF3CC41A6C142000084B25 /* Main.storyboard */,
+				60FF3CC71A6C142000084B25 /* Images.xcassets */,
+				60FF3CC91A6C142000084B25 /* LaunchScreen.xib */,
+				60FF3CBE1A6C142000084B25 /* Supporting Files */,
+			);
+			path = LDStickerView;
+			sourceTree = "<group>";
+		};
+		60FF3CBE1A6C142000084B25 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				60FF3CBF1A6C142000084B25 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		60FF3CD31A6C142000084B25 /* LDStickerViewTests */ = {
+			isa = PBXGroup;
+			children = (
+				60FF3CD61A6C142000084B25 /* LDStickerViewTests.swift */,
+				60FF3CD41A6C142000084B25 /* Supporting Files */,
+			);
+			path = LDStickerViewTests;
+			sourceTree = "<group>";
+		};
+		60FF3CD41A6C142000084B25 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				60FF3CD51A6C142000084B25 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		60FF3CBA1A6C142000084B25 /* LDStickerView */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 60FF3CDA1A6C142000084B25 /* Build configuration list for PBXNativeTarget "LDStickerView" */;
+			buildPhases = (
+				60FF3CB71A6C142000084B25 /* Sources */,
+				60FF3CB81A6C142000084B25 /* Frameworks */,
+				60FF3CB91A6C142000084B25 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = LDStickerView;
+			productName = LDStickerView;
+			productReference = 60FF3CBB1A6C142000084B25 /* LDStickerView.app */;
+			productType = "com.apple.product-type.application";
+		};
+		60FF3CCF1A6C142000084B25 /* LDStickerViewTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 60FF3CDD1A6C142000084B25 /* Build configuration list for PBXNativeTarget "LDStickerViewTests" */;
+			buildPhases = (
+				60FF3CCC1A6C142000084B25 /* Sources */,
+				60FF3CCD1A6C142000084B25 /* Frameworks */,
+				60FF3CCE1A6C142000084B25 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				60FF3CD21A6C142000084B25 /* PBXTargetDependency */,
+			);
+			name = LDStickerViewTests;
+			productName = LDStickerViewTests;
+			productReference = 60FF3CD01A6C142000084B25 /* LDStickerViewTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		60FF3CB31A6C142000084B25 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0610;
+				ORGANIZATIONNAME = "V2T Multimedia";
+				TargetAttributes = {
+					60FF3CBA1A6C142000084B25 = {
+						CreatedOnToolsVersion = 6.1.1;
+					};
+					60FF3CCF1A6C142000084B25 = {
+						CreatedOnToolsVersion = 6.1.1;
+						TestTargetID = 60FF3CBA1A6C142000084B25;
+					};
+				};
+			};
+			buildConfigurationList = 60FF3CB61A6C142000084B25 /* Build configuration list for PBXProject "LDStickerView" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 60FF3CB21A6C142000084B25;
+			productRefGroup = 60FF3CBC1A6C142000084B25 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				60FF3CBA1A6C142000084B25 /* LDStickerView */,
+				60FF3CCF1A6C142000084B25 /* LDStickerViewTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		60FF3CB91A6C142000084B25 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				60FF3CC61A6C142000084B25 /* Main.storyboard in Resources */,
+				60FF3CCB1A6C142000084B25 /* LaunchScreen.xib in Resources */,
+				60FF3CC81A6C142000084B25 /* Images.xcassets in Resources */,
+				60FF3CE41A6C155400084B25 /* cu-meo.png in Resources */,
+				60FF3CE51A6C155400084B25 /* Minion1x.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		60FF3CCE1A6C142000084B25 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		60FF3CB71A6C142000084B25 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				60FF3CC31A6C142000084B25 /* ViewController.swift in Sources */,
+				60FF3CE11A6C14BA00084B25 /* LDStickerView.swift in Sources */,
+				60FF3CC11A6C142000084B25 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		60FF3CCC1A6C142000084B25 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				60FF3CD71A6C142000084B25 /* LDStickerViewTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		60FF3CD21A6C142000084B25 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 60FF3CBA1A6C142000084B25 /* LDStickerView */;
+			targetProxy = 60FF3CD11A6C142000084B25 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		60FF3CC41A6C142000084B25 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				60FF3CC51A6C142000084B25 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		60FF3CC91A6C142000084B25 /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				60FF3CCA1A6C142000084B25 /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		60FF3CD81A6C142000084B25 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		60FF3CD91A6C142000084B25 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		60FF3CDB1A6C142000084B25 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = LDStickerView/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		60FF3CDC1A6C142000084B25 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = LDStickerView/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		60FF3CDE1A6C142000084B25 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = LDStickerViewTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/LDStickerView.app/LDStickerView";
+			};
+			name = Debug;
+		};
+		60FF3CDF1A6C142000084B25 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = LDStickerViewTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/LDStickerView.app/LDStickerView";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		60FF3CB61A6C142000084B25 /* Build configuration list for PBXProject "LDStickerView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				60FF3CD81A6C142000084B25 /* Debug */,
+				60FF3CD91A6C142000084B25 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		60FF3CDA1A6C142000084B25 /* Build configuration list for PBXNativeTarget "LDStickerView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				60FF3CDB1A6C142000084B25 /* Debug */,
+				60FF3CDC1A6C142000084B25 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		60FF3CDD1A6C142000084B25 /* Build configuration list for PBXNativeTarget "LDStickerViewTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				60FF3CDE1A6C142000084B25 /* Debug */,
+				60FF3CDF1A6C142000084B25 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 60FF3CB31A6C142000084B25 /* Project object */;
+}
